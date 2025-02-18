@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Deploy'){
             steps{
-                bat 'node hello'
+                bat 'python test1.py'
                 echo 'Deploying...........'
             }
         }
